@@ -73,6 +73,11 @@ Linux: [![Circle CI](https://circleci.com/gh/conda-forge/pytest-runner-feedstock
 OSX: [![TravisCI](https://travis-ci.org/conda-forge/pytest-runner-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/pytest-runner-feedstock) 
 Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/pytest-runner-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/pytest-runner-feedstock/branch/master)
 
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pytest-runner/badges/version.svg)](https://anaconda.org/conda-forge/pytest-runner)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pytest-runner/badges/downloads.svg)](https://anaconda.org/conda-forge/pytest-runner)
+
 
 Updating pytest-runner-feedstock
 ================================
