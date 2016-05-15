@@ -5,7 +5,7 @@ Home: https://github.com/pytest-dev/pytest-runner
 
 Package license: MIT
 
-Feedstock license: BSD
+Feedstock license: BSD 3-Clause
 
 Summary: Invoke py.test as distutils command with dependency resolution.
 
@@ -69,6 +69,7 @@ Terminology
 
 Current build status
 ====================
+
 Linux: [![Circle CI](https://circleci.com/gh/conda-forge/pytest-runner-feedstock.svg?style=svg)](https://circleci.com/gh/conda-forge/pytest-runner-feedstock)
 OSX: [![TravisCI](https://travis-ci.org/conda-forge/pytest-runner-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/pytest-runner-feedstock) 
 Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/pytest-runner-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/pytest-runner-feedstock/branch/master)
