@@ -11,13 +11,13 @@ source:
 
 build:
     script: python setup.py install --single-version-externally-managed --record record.txt
-    number: 0
+    number: 1
 
 requirements:
   build:
     - python
     - setuptools
-    - setuptools_scm
+    - setuptools_scm >=1.9,!=1.13.1,!=1.14.0
 
   run:
     - python
