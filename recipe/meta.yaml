@@ -10,8 +10,8 @@ source:
   sha256: 50378de59b02f51f64796d3904dfe71b9dc6f06d88fc6bfbd5c8e8366ae1d131
 
 build:
+    number: 2
     script: python setup.py install --single-version-externally-managed --record record.txt
-    number: 1
 
 requirements:
   build:
@@ -31,8 +31,10 @@ test:
 about:
   home: https://github.com/pytest-dev/pytest-runner
   license: MIT
+  license_file: LICENSE
   summary: 'Invoke py.test as distutils command with dependency resolution.'
 
 extra:
   recipe-maintainers:
     - dopplershift
+    - ocefpaf
