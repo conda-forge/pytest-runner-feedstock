@@ -1,6 +1,6 @@
 {% set name = "pytest-runner" %}
-{% set version = "2.9" %}
-{% set sha256 = "d426403d6c73e19af6e9f720da8329809ccd454d046872e674c3b2bd0ac9666b" %}
+{% set version = "2.11" %}
+{% set sha256 = "bd4cae2efe03495955197983695cc170b5060766f9245994a8cda1ffc7fd3123" %}
 
 package:
   name: {{ name|lower }}
@@ -12,14 +12,14 @@ source:
   sha256: {{ sha256 }}
 
 build:
-    number: 2
+    number: 0
     script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
   build:
     - python
     - setuptools
-    - setuptools_scm >=1.9,!=1.13.1,!=1.14.0
+    - setuptools_scm >=1.15.0
 
   run:
     - python
