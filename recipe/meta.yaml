@@ -1,6 +1,6 @@
 {% set name = "pytest-runner" %}
-{% set version = "4.0" %}
-{% set sha256 = "183f3745561b1e00ea51cd97634ba5c540848ab4aa8016a81faba7fb7f33ec76" %}
+{% set version = "4.1" %}
+{% set sha256 = "3b10744e971c7dced934d3d7b1b74c78159b3f8398c11365451e43b8b75efcbd" %}
 
 package:
   name: {{ name|lower }}
