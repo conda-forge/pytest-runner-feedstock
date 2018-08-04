@@ -1,27 +1,23 @@
-{% set name = "pytest-runner" %}
 {% set version = "4.2" %}
-{% set sha256 = "d23f117be39919f00dd91bffeb4f15e031ec797501b717a245e377aee0f577be" %}
 
 package:
-  name: {{ name|lower }}
+  name: pytest-runner
   version: {{ version }}
 
 source:
-  fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: {{ sha256 }}
+  url: https://pypi.io/packages/source/p/pytest-runner/pytest-runner-{{ version }}.tar.gz
+  sha256: d23f117be39919f00dd91bffeb4f15e031ec797501b717a245e377aee0f577be
 
 build:
+    number: 1
     noarch: python
-    number: 0
-    script: python setup.py install --single-version-externally-managed --record record.txt
+    script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
 
 requirements:
-  build:
+  host:
     - python
-    - setuptools
+    - pip
     - setuptools_scm >=1.15.0
-
   run:
     - python
     - setuptools
