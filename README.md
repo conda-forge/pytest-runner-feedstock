@@ -14,12 +14,15 @@ Summary: Invoke py.test as distutils command with dependency resolution.
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/pytest-runner-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/pytest-runner-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/pytest-runner-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/pytest-runner-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pytest-runner/badges/version.svg)](https://anaconda.org/conda-forge/pytest-runner)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pytest-runner/badges/downloads.svg)](https://anaconda.org/conda-forge/pytest-runner)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-pytest--runner-green.svg)](https://anaconda.org/conda-forge/pytest-runner) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/pytest-runner.svg)](https://anaconda.org/conda-forge/pytest-runner) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/pytest-runner.svg)](https://anaconda.org/conda-forge/pytest-runner) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/pytest-runner.svg)](https://anaconda.org/conda-forge/pytest-runner) |
 
 Installing pytest-runner
 ========================
