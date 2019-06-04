@@ -1,4 +1,4 @@
-{% set version = "4.5" %}
+{% set version = "5.0" %}
 
 package:
   name: pytest-runner
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/p/pytest-runner/pytest-runner-{{ version }}.tar.gz
-  sha256: b53972f3adc33ce1a0332ef5af942167d95f84dc37f04ac01206304ee71be3f0
+  sha256: c6c18d950091ffaef09d0ab5411dd2808b2ea3e0297354a5e6d26c79b775df16
 
 build:
     number: 0
